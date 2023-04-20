@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>Krabond Studio</title>
+  <link rel="icon" href="./img/favicon.png" type="image/png">
+  <nav class="nav">
+    <div class="logo">
+        <img src="./img/Logo.png" alt="Logo">
+    </div>
+    <div class="nav-links">
+        <button>Hakkımızda</button>
+        <button>Ürünler</button>
+        <button>İletişim</button>
+    </div>
+</nav>
+</div>
+
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-post">
+                <form action="">
+                    <h2>Hemen İndir!</h2>                    
+                    <br>
+                    <button type="button" class="windows-button" style="background: url(./img/kilit.jpg); background-repeat: no-repeat; background-position-x: -50xp 80xp; background-size: 500px -300px; ; color: rgb(0, 0, 0); background-color: rgba(39, 228, 2, 0.219);"> Windows</button> 
+                    &nbsp;
+                    <button type="button" class="android-button" style="background: url(./img/kilit.jpg); background-repeat: no-repeat; background-position-x: -50xp 80xp; background-size: 500px -300px; ; color: rgb(0, 0, 0); background-color: rgba(39, 228, 2, 0.219);"> Android</button>  
+                    &nbsp;
+                    <button type="button" class="ios-button" style="background: url(./img/kilit.jpg); background-repeat: no-repeat; background-position-x: -50xp 80xp; background-size: 500px -300px; ; color: rgb(0, 0, 0); background-color: rgba(39, 228, 2, 0.219);"> İos</button>                
+                    <div class="popup">
+                        <div class="popup-content">
+                          <span class="close-button">&times;</span>
+                          <p>Opss..</p>
+                          <p>Üzgünüz şu anda ulaşılamıyor, geliştiricilerle İletişime geçmeyi deneyin</p>
+                        </div>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        const iosButton = document.querySelector(".ios-button");
+        const androidButton = document.querySelector(".android-button");
+        const windowsButton = document.querySelector(".windows-button");
+        const popup = document.querySelector(".popup");
+        const closeButton = document.querySelector(".close-button");
+      
+        iosButton.addEventListener("click", function() {
+          popup.style.display = "block";
+        });
+
+        androidButton.addEventListener("click", function() {
+          popup.style.display = "block";
+        });
+
+        windowsButton.addEventListener("click", function() {
+          popup.style.display = "block";
+        });
+      
+        closeButton.addEventListener("click", function() {
+          popup.style.display = "none";
+        });
+        
+      </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<div class="Alt1"> 
+ 
+</div>
+</body>
+</html>
